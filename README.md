@@ -2,7 +2,7 @@
 
 [Virtual on November 12-19, 2021](https://github.com/virtualmlnet/hackathon-2021)
 
-# What we have done
+# What we have done:
 
 ## Deliverable 1: 
 - The GymGodot is being tested ONLY on Linux & Godot 3.3
