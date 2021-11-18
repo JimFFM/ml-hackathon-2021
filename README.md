@@ -9,6 +9,7 @@
 - We hack the provided python scripts to make them **work on Windows**
 
 ## Deliverable 2: 
+- We learned that it was not trivial to [simply export PyTorch model to ONNX](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html) due to [issue discussed here](https://github.com/onnx/onnx/issues/3033) 
 - We follow the [instruction](https://stable-baselines3.readthedocs.io/en/master/guide/export.html) and added extra pytorch codes to export the trained pytorch model to [StarShipLander.ONNX](https://github.com/JimFFM/ml-hackathon-2021/blob/main/GymRogueOne/StarShipLander.onnx)
 - 
 ## Deliverable 3: 
