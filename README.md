@@ -19,7 +19,7 @@
 ## Deliverable 4:
 - We removed the need of having **two applications**: a UI client and a server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
 
-# How to run the solution (Quick Start)
+# How to run the GymRogueOne solution? (Quick Start)
 
 ## Step 1 - Git clone and download the missing large size file
 
