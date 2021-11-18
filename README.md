@@ -4,7 +4,7 @@
 
 # What we have done:
 
-## Deliverable 1: 
+## Deliverable 1: A workflow to train PyTorch OpenAI Gym (stable-baselines3) model using Godot environment on Windows
 - The GymGodot is being tested ONLY on Linux & Godot 3.3
 - We hacked the provided python script solution to make them **work on Windows**
 
