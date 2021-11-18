@@ -6,12 +6,13 @@
 
 ## Deliverable 1: 
 #### A workflow to train PyTorch OpenAI Gym (stable-baselines3 or SB3) model using Godot environment on Windows
-- The GymGodot is being tested ONLY on Linux & Godot 3.3
+
+The provided GymGodot is being tested ONLY on Linux & Godot 3.3
 - [x] We hacked the provided python script solution to make them **work on Windows**
 
 ## Deliverable 2: 
 #### A working example how to export SB3 ONNX
-- We learned that it was not trivial to [simply export PyTorch model to ONNX](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html) due to [no broadcast_tensors opperator support discussed here](https://github.com/onnx/onnx/issues/3033) 
+- [x] We learned that it was not trivial to [simply export PyTorch model to ONNX](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html) due to [no broadcast_tensors opperator support discussed here](https://github.com/onnx/onnx/issues/3033) 
 - [x] We follow the [instruction](https://stable-baselines3.readthedocs.io/en/master/guide/export.html) and added extra pytorch codes and attached [model_to_onnx.py](https://github.com/JimFFM/ml-hackathon-2021/blob/main/PyTorchTrainingONNXExport/model_to_onnx.py) to export the trained pytorch model to [StarShipLander.ONNX](https://github.com/JimFFM/ml-hackathon-2021/blob/main/GymRogueOne/StarShipLander.onnx)
  
 ## Deliverable 3: 
