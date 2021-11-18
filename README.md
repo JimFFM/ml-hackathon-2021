@@ -82,4 +82,4 @@ wget https://drive.google.com/file/d/1pekt-xm665w6h77tOVHtmUjPeRDq5jF4/view?usp=
 
 ![uzYkLCgQH1](https://user-images.githubusercontent.com/59052120/142358633-33c33c02-7e19-4ce0-b9a8-1148e8c8017d.gif)
 
-[Longer starship landing video](https://github.com/JimFFM/ml-hackathon-2021/blob/main/StarShip.mp4)
+[More: Longer starship landing video](https://github.com/JimFFM/ml-hackathon-2021/blob/main/StarShip.mp4)
