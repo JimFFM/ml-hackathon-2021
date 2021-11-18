@@ -6,13 +6,18 @@
 
 ## Deliverable 1: 
 - The GymGodot is being tested ONLY on Linux & Godot 3.3
-- We hack the provided python scripts to make them **work on Windows**
+- We hacked the provided python script solution to make them **work on Windows**
 
 ## Deliverable 2: 
 - We learned that it was not trivial to [simply export PyTorch model to ONNX](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html) due to [no broadcast_tensors opperator support discussed here](https://github.com/onnx/onnx/issues/3033) 
 - We follow the [instruction](https://stable-baselines3.readthedocs.io/en/master/guide/export.html) and added extra pytorch codes and attached [model_to_onnx.py](https://github.com/JimFFM/ml-hackathon-2021/blob/main/PyTorchTrainingONNXExport/model_to_onnx.py) to export the trained pytorch model to [StarShipLander.ONNX](https://github.com/JimFFM/ml-hackathon-2021/blob/main/GymRogueOne/StarShipLander.onnx)
-- 
+ 
 ## Deliverable 3: 
+- We replace the provided python Gym_server with [godot_net_server](https://github.com/JimFFM/ml-hackathon-2021/tree/main/Godot_NET-Server/godot_net_server)
+- This removed dependency on python for RL inference.
+
+## Deliverable 4:
+- We removed the need of having **two applications**: a UI client and a server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
 
 # How to run the solution (Quick Start)
 
