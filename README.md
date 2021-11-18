@@ -25,13 +25,15 @@ The provided GymGodot is being tested ONLY on Linux & Godot 3.3
 - [x] We removed the need of having **two applications**: a UI client and a (python/.NET) server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
 
 ## Deliverable 5:
-#### A workflow to make SEVEN OpenAI Gym RL algorithms accessible throgh [ML.NET](https://github.com/dotnet/machinelearning)
+#### A workflow to possibly make SEVEN OpenAI Gym RL algorithms accessible throgh [ML.NET](https://github.com/dotnet/machinelearning)
+
+For more information: [mlnet_findings.pptx](https://github.com/JimFFM/ml-hackathon-2021/blob/main/Doc/mlnet_findings.pptx)
 - A2C: Asynchronous Advantage Actor Critic.
 - DDPG: Deep Deterministic Policy Gradient.
 - DQN: Deep Q Network.
 - HER: Hindsight Experience Replay.
 - [x] PPO: Proximal Policy Optimization. e.g. [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
-- SAC: Soft Actor Critic.
+- [x] SAC: Soft Actor Critic. - tested
 - TD3: Twin Delayed DDPG.
 
 # How to run the GymRogueOne solution? (Quick Start)
