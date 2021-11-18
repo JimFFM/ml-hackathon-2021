@@ -30,7 +30,7 @@ The provided GymGodot is being tested ONLY on Linux & Godot 3.3
 - DDPG: Deep Deterministic Policy Gradient.
 - DQN: Deep Q Network.
 - HER: Hindsight Experience Replay.
-- PPO: Proximal Policy Optimization.
+- [x] PPO: Proximal Policy Optimization. e.g. GymRogueOne
 - SAC: Soft Actor Critic.
 - TD3: Twin Delayed DDPG.
 
