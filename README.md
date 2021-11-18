@@ -9,6 +9,11 @@
 
 ```
 git clone https://github.com/JimFFM/ml-hackathon-2021
+cd ml-hackathon-2021/GymRogueOne/StarShip/
+```
+Download the missing large size file: **Starship.material** into the StarShip folder, according to the link provided [here](https://github.com/JimFFM/ml-hackathon-2021/blob/main/GymRogueOne/StarShip/ReadmeFirst.md)
+```
+wget https://drive.google.com/file/d/1pekt-xm665w6h77tOVHtmUjPeRDq5jF4/view?usp=sharing
 ```
 
 ## Step 2 - Download Godot
