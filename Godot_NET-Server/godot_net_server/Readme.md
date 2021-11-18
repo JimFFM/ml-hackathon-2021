@@ -1,4 +1,5 @@
 # GodotServerDotnet
+Having a server that can provide predictions over websockets or network allows us to integrate the ML model where we cant run mlnet. Before consuming out model directly, we used such server to test out model in mlnet with the godot engine.
 
 [Godot Engine](https://godotengine.org/) as an [OpenAI Gym](https://github.com/openai/gym) environment for Reinforcement Learning.
 
