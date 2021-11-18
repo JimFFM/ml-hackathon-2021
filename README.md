@@ -1,6 +1,6 @@
 # Virtual ML.NET 2021 Hackathon Submission 
 
-November 12-19, 2021
+[Virtual on November 12-19, 2021](https://github.com/virtualmlnet/hackathon-2021)
 
 
 # How to run the solution (Quick Start)
