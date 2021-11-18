@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\00-Test\\2021-Hackathon2\\ml-hackathon-2021\\GymRogueOne\\gym-godot.csproj": {}
+  },
+  "projects": {
+    "H:\\00-Test\\2021-Hackathon2\\ml-hackathon-2021\\GymRogueOne\\gym-godot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\00-Test\\2021-Hackathon2\\ml-hackathon-2021\\GymRogueOne\\gym-godot.csproj",
+        "projectName": "gym-godot",
+        "projectPath": "H:\\00-Test\\2021-Hackathon2\\ml-hackathon-2021\\GymRogueOne\\gym-godot.csproj",
+        "packagesPath": "C:\\Users\\jimseow\\.nuget\\packages\\",
+        "outputPath": "H:\\00-Test\\2021-Hackathon2\\ml-hackathon-2021\\GymRogueOne\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\jimseow\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jimseow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/skiasharp-eap/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.pkgs.visualstudio.com/TorchSharp/_packaging/SignedPackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Microsoft.ML.OnnxRuntime": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Microsoft.ML.OnnxTransformer": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

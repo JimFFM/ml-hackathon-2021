@@ -1,0 +1,153 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://examples/mars_landercamera_path2.tres" type="Animation" id=1]
+[ext_resource path="res://Scripts/GymONNX.cs" type="Script" id=2]
+[ext_resource path="res://Scenes/LandscapeSolars.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Lander.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/LandscapePlants.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/Landscape.tscn" type="PackedScene" id=6]
+[ext_resource path="res://examples/mars_lander/Environment.gd" type="Script" id=7]
+
+[sub_resource type="CylinderShape" id=9]
+radius = 1.1
+height = 0.2
+
+[sub_resource type="CylinderMesh" id=10]
+top_radius = 1.1
+bottom_radius = 1.1
+height = 0.2
+
+[sub_resource type="SpatialMaterial" id=11]
+flags_transparent = true
+flags_unshaded = true
+albedo_color = Color( 0.290196, 0.647059, 0.321569, 0.364706 )
+
+[sub_resource type="CylinderShape" id=12]
+radius = 1.35
+height = 0.2
+
+[sub_resource type="ProceduralSky" id=114]
+sky_top_color = Color( 0.768627, 0.701961, 0.537255, 1 )
+sky_horizon_color = Color( 0.501961, 0.329412, 0.235294, 1 )
+sky_curve = 0.771677
+ground_bottom_color = Color( 0.501961, 0.329412, 0.235294, 1 )
+ground_horizon_color = Color( 0.501961, 0.329412, 0.235294, 1 )
+sun_latitude = 13.82
+sun_longitude = -55.06
+
+[sub_resource type="Environment" id=115]
+background_mode = 2
+background_sky = SubResource( 114 )
+background_color = Color( 0.219608, 0.235294, 0.290196, 1 )
+ambient_light_energy = 0.4
+fog_enabled = true
+fog_color = Color( 0.458824, 0.313726, 0.231373, 1 )
+fog_sun_color = Color( 1, 0.901961, 0.701961, 1 )
+fog_depth_begin = 15.0
+fog_depth_end = 153.3
+fog_depth_curve = 0.965939
+fog_height_enabled = true
+fog_height_min = 0.0
+fog_height_max = -4.0
+tonemap_mode = 2
+ss_reflections_enabled = true
+ss_reflections_max_steps = 32
+ssao_enabled = true
+ssao_radius = 0.25
+ssao_intensity = 20.0
+ssao_radius2 = 8.0
+ssao_intensity2 = 3.0
+ssao_quality = 2
+ssao_edge_sharpness = 3.0
+dof_blur_far_enabled = true
+dof_blur_far_distance = 35.0
+dof_blur_far_transition = 20.0
+dof_blur_near_distance = 10.5
+dof_blur_near_transition = 5.0
+glow_enabled = true
+glow_levels/2 = true
+glow_levels/4 = true
+glow_levels/6 = true
+glow_levels/7 = true
+glow_intensity = 8.0
+glow_strength = 0.9
+glow_bicubic_upscale = true
+
+[sub_resource type="Animation" id=116]
+length = 100.0
+tracks/0/type = "transform"
+tracks/0/path = NodePath("Camera")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = PoolRealArray( 0, 1, -8.73111, 8.20647, 7.16631, -0.137189, -0.398566, -0.0561433, 0.905081, 1, 1, 1, 20, 1, -5.06173, 2.85476, 9.9154, -0.0328786, -0.228194, -0.00275313, 0.973057, 1, 1, 1 )
+
+[node name="Root" type="Spatial"]
+
+[node name="GymONNX" type="Node" parent="."]
+script = ExtResource( 2 )
+environmentNode = NodePath("../Env")
+landerNode = NodePath("../Env/Lander")
+stepLength = 4
+hoverMin = 5.0
+
+[node name="Env" type="Spatial" parent="."]
+script = ExtResource( 7 )
+
+[node name="Lander" parent="Env" instance=ExtResource( 4 )]
+
+[node name="LandingArea" type="Area" parent="Env"]
+transform = Transform( 1.1886, 0, 0, 0, 1, 0, 0, 0, 1.25082, 1.00441, 0, 0.0267541 )
+collision_layer = 2
+input_ray_pickable = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Env/LandingArea"]
+transform = Transform( 1.056, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0 )
+shape = SubResource( 9 )
+
+[node name="MeshInstance" type="MeshInstance" parent="Env/LandingArea"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0 )
+visible = false
+mesh = SubResource( 10 )
+material/0 = SubResource( 11 )
+
+[node name="LandingCollision" type="StaticBody" parent="Env"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04448, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Env/LandingCollision"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0 )
+shape = SubResource( 12 )
+
+[node name="Landscape" parent="Env" instance=ExtResource( 6 )]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Env"]
+environment = SubResource( 115 )
+
+[node name="Camera" type="Camera" parent="Env"]
+transform = Transform( 0.723991, 0.0923517, -0.683599, 0.0779907, 0.973684, 0.21414, 0.685386, -0.20835, 0.697736, -1.3879, 1.40034, 2.92604 )
+far = 150.0
+
+[node name="CameraAnimation" type="AnimationPlayer" parent="Env"]
+playback_process_mode = 0
+anims/camera_path = SubResource( 116 )
+anims/camera_path2 = ExtResource( 1 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="Env"]
+transform = Transform( -0.0978438, -0.487404, -0.867677, -0.960347, -0.182479, 0.210798, -0.261077, 0.853896, -0.450223, 2.0604, 4.43341, -3.70311 )
+shadow_enabled = true
+shadow_bias = 0.0
+directional_shadow_split_1 = 0.175
+directional_shadow_split_2 = 0.35
+directional_shadow_split_3 = 0.46
+directional_shadow_max_distance = 90.0
+
+[node name="Camera2" type="Camera" parent="Env"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.12931, 4.87725 )
+
+[node name="Camera3" type="Camera" parent="Env"]
+transform = Transform( -0.378277, 0, 0.925692, 0, 1, 0, -0.925692, 0, -0.378277, 1.35017, 11.4364, -0.0453123 )
+
+[node name="Landscape_Plants" parent="Env" instance=ExtResource( 5 )]
+
+[node name="LandscapeSolars" parent="Env" instance=ExtResource( 3 )]
