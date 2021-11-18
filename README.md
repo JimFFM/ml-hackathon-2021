@@ -23,6 +23,14 @@
 
 ![image](https://user-images.githubusercontent.com/49812372/142357095-d210ee58-46c8-41cc-8f93-f08b14749422.png)
 
+## Step 3 Play with these parameters to achieve soft landing
 
+
+<img src="https://user-images.githubusercontent.com/59052120/142358531-a5d2372c-10f3-4552-baa9-1509c70a93be.png" alt="drawing" width="300"/>
+
+<img src="https://user-images.githubusercontent.com/59052120/142358550-6414ab7f-d814-406b-a021-9eb90ba9e11d.png" alt="drawing" width="300"/>
+
+
+![uzYkLCgQH1](https://user-images.githubusercontent.com/59052120/142358633-33c33c02-7e19-4ce0-b9a8-1148e8c8017d.gif)
 
 
