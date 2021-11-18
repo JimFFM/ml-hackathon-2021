@@ -5,7 +5,7 @@ Having a server that can provide predictions over websockets or network allows u
 
 ## Overview
 
-![overview](overview.svg)
+![overview](https://github.com/HugoTini/GymGodot/blob/main/overview.svg)
 
 ### `gym-godot` : Godot Side (client)
 - The '_Environment node_', created by the user, implements the required methods (`execute_action()`, `get_observation()`, `get_reward()`, `reset()` and `is_done()`).
