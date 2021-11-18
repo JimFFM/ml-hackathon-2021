@@ -29,6 +29,8 @@ The provided GymGodot is being tested ONLY on Linux & Godot 3.3
 #### An example how to integrate ML.NET in Godot
 - [x] We removed the need of having **two applications**: a UI client and a (python/.NET) server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
 
+**Reference:** the provided GymGodot's rocket model is replaced with [a SpaceX Starship model](https://skfb.ly/6QWPo) by MartianDays under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/)
+
 ## Deliverable 5:
 #### A workflow to possibly make SEVEN OpenAI Gym RL algorithms accessible throgh [ML.NET](https://github.com/dotnet/machinelearning)
 
