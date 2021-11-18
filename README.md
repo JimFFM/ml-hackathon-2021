@@ -4,20 +4,24 @@
 
 # What we have done:
 
-## Deliverable 1: A workflow to train PyTorch OpenAI Gym (stable-baselines3 or SB3) model using Godot environment on Windows
+## Deliverable 1: 
+#### A workflow to train PyTorch OpenAI Gym (stable-baselines3 or SB3) model using Godot environment on Windows
 - The GymGodot is being tested ONLY on Linux & Godot 3.3
-- We hacked the provided python script solution to make them **work on Windows**
+- [x] We hacked the provided python script solution to make them **work on Windows**
 
-## Deliverable 2: A working example how to export SB3 ONNX
+## Deliverable 2: 
+#### A working example how to export SB3 ONNX
 - We learned that it was not trivial to [simply export PyTorch model to ONNX](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html) due to [no broadcast_tensors opperator support discussed here](https://github.com/onnx/onnx/issues/3033) 
-- We follow the [instruction](https://stable-baselines3.readthedocs.io/en/master/guide/export.html) and added extra pytorch codes and attached [model_to_onnx.py](https://github.com/JimFFM/ml-hackathon-2021/blob/main/PyTorchTrainingONNXExport/model_to_onnx.py) to export the trained pytorch model to [StarShipLander.ONNX](https://github.com/JimFFM/ml-hackathon-2021/blob/main/GymRogueOne/StarShipLander.onnx)
+- [x] We follow the [instruction](https://stable-baselines3.readthedocs.io/en/master/guide/export.html) and added extra pytorch codes and attached [model_to_onnx.py](https://github.com/JimFFM/ml-hackathon-2021/blob/main/PyTorchTrainingONNXExport/model_to_onnx.py) to export the trained pytorch model to [StarShipLander.ONNX](https://github.com/JimFFM/ml-hackathon-2021/blob/main/GymRogueOne/StarShipLander.onnx)
  
-## Deliverable 3: A .NET WebSocket Server serving RL inference using SB3 ONNX applicable for e.g. Unity3D
-- We replace the provided python Gym_server with [godot_net_server](https://github.com/JimFFM/ml-hackathon-2021/tree/main/Godot_NET-Server/godot_net_server)
-- This removed dependency on python for RL inference.
+## Deliverable 3: 
+#### A .NET WebSocket Server serving RL inference using SB3 ONNX applicable for e.g. Unity3D
+- [x] We replace the provided python Gym_server with [godot_net_server](https://github.com/JimFFM/ml-hackathon-2021/tree/main/Godot_NET-Server/godot_net_server)
+- [x] This removed dependency on python for RL inference.
 
-## Deliverable 4: An example how to integrate ML.NET in Godot
-- We removed the need of having **two applications**: a UI client and a server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
+## Deliverable 4: 
+#### An example how to integrate ML.NET in Godot
+- [x] We removed the need of having **two applications**: a UI client and a server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
 
 # How to run the GymRogueOne solution? (Quick Start)
 
