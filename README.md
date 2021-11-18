@@ -33,4 +33,10 @@
 
 ![uzYkLCgQH1](https://user-images.githubusercontent.com/59052120/142358633-33c33c02-7e19-4ce0-b9a8-1148e8c8017d.gif)
 
+# What we have done
 
+## Deliverable 1: 
+
+## Deliverable 2: 
+
+## Deliverable 3: 
