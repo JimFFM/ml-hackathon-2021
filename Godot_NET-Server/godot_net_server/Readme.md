@@ -36,7 +36,7 @@ System.Diagnostics.Process.Start("CMD.exe", start_godot);
 
 ![mars_lander](./gym-godot/examples/mars_lander/output.gif)
 
-Description : [mars_lander.md](gym-godot/examples/mars_lander/mars_lander.md)
+Description : [mars_lander.md](https://github.com/HugoTini/GymGodot/blob/main/gym-godot/examples/mars_lander/mars_lander.md)
 
 ## Notes
 
