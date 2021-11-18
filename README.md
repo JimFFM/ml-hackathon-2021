@@ -5,7 +5,9 @@
 # What we have done
 
 ## Deliverable 1: 
-
+- The GymGodot is being tested ONLY on Linux & Godot 3.3
+- We hack the provided python scripts to make them **work on Windows**
+- 
 ## Deliverable 2: 
 
 ## Deliverable 3: 
