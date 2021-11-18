@@ -10,7 +10,7 @@ November 12-19, 2021
 - [Godot download page](https://godotengine.org/download)
 - In our case, we downloaded the [Godot Mono x86-64 bit zip file](https://downloads.tuxfamily.org/godotengine/3.4/mono/Godot_v3.4-stable_mono_win64.zip)
 - Unzip the Godot application (~81 MB)
-![image](https://user-images.githubusercontent.com/49812372/142356492-e180285a-2afb-4d73-b5cb-eb9c22bcc32b.png)
+<img src="https://user-images.githubusercontent.com/49812372/142356492-e180285a-2afb-4d73-b5cb-eb9c22bcc32b.png" alt="drawing" width="800"/>
 
 ## Step 2 - Select the project.godot file and click run
 - A window shows up to allow you to **import** the Godot project file
