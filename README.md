@@ -7,9 +7,10 @@
 ## Deliverable 1: 
 - The GymGodot is being tested ONLY on Linux & Godot 3.3
 - We hack the provided python scripts to make them **work on Windows**
-- 
-## Deliverable 2: 
 
+## Deliverable 2: 
+- We follow the [instruction](https://stable-baselines3.readthedocs.io/en/master/guide/export.html) and added extra pytorch codes to export the trained pytorch model to [StarShipLander.ONNX](https://github.com/JimFFM/ml-hackathon-2021/blob/main/GymRogueOne/StarShipLander.onnx)
+- 
 ## Deliverable 3: 
 
 # How to run the solution (Quick Start)
