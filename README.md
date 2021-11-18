@@ -7,9 +7,9 @@
 
 ## Step 1 - Git clone and download the missing large size file
 
-'''
+```
 git clone https://github.com/JimFFM/ml-hackathon-2021
-'''
+```
 
 ## Step 2 - Download Godot
 
