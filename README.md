@@ -2,6 +2,11 @@
 
 [Virtual on November 12-19, 2021](https://github.com/virtualmlnet/hackathon-2021)
 
+Team members
+- [Jim SEOW](https://github.com/JimFFM)
+- [Shehroze Malik](https://github.com/shehrozeee) => who did most of the coding
+- [Praveen Raghuvanshi](https://github.com/praveenraghuvanshi)
+
 # What we have done:
 
 ## Deliverable 1: 
