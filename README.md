@@ -22,7 +22,7 @@ The provided GymGodot is being tested ONLY on Linux & Godot 3.3
 
 ## Deliverable 4: 
 #### An example how to integrate ML.NET in Godot
-- [x] We removed the need of having **two applications**: a UI client and a server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
+- [x] We removed the need of having **two applications**: a UI client and a (python/.NET) server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
 
 ## Deliverable 5:
 #### A workflow to make SEVEN OpenAI Gym RL algorithms accessible throgh [ML.NET](https://github.com/dotnet/machinelearning)
