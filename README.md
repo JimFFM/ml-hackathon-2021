@@ -2,6 +2,13 @@
 
 [Virtual on November 12-19, 2021](https://github.com/virtualmlnet/hackathon-2021)
 
+# What we have done
+
+## Deliverable 1: 
+
+## Deliverable 2: 
+
+## Deliverable 3: 
 
 # How to run the solution (Quick Start)
 
@@ -44,10 +51,4 @@ wget https://drive.google.com/file/d/1pekt-xm665w6h77tOVHtmUjPeRDq5jF4/view?usp=
 
 ![uzYkLCgQH1](https://user-images.githubusercontent.com/59052120/142358633-33c33c02-7e19-4ce0-b9a8-1148e8c8017d.gif)
 
-# What we have done
 
-## Deliverable 1: 
-
-## Deliverable 2: 
-
-## Deliverable 3: 
