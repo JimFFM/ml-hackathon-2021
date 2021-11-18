@@ -24,6 +24,16 @@ The provided GymGodot is being tested ONLY on Linux & Godot 3.3
 #### An example how to integrate ML.NET in Godot
 - [x] We removed the need of having **two applications**: a UI client and a server serving RL inference by implementing **a single application solution**: [GymRogueOne](https://github.com/JimFFM/ml-hackathon-2021/tree/main/GymRogueOne)
 
+## Deliverable 5:
+#### A workflow to make SEVEN OpenAI Gym RL algorithms accessible throgh [ML.NET](https://github.com/dotnet/machinelearning)
+- A2C: Asynchronous Advantage Actor Critic.
+- DDPG: Deep Deterministic Policy Gradient.
+- DQN: Deep Q Network.
+- HER: Hindsight Experience Replay.
+- PPO: Proximal Policy Optimization.
+- SAC: Soft Actor Critic.
+- TD3: Twin Delayed DDPG.
+
 # How to run the GymRogueOne solution? (Quick Start)
 
 ## Step 1 - Git clone and download the missing large size file
