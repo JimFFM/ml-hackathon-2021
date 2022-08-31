@@ -4,7 +4,7 @@
 
 Team members
 - [Jim SEOW](https://github.com/JimFFM)
-- [Shehroze Malik](https://github.com/shehrozeee) => who did most of the coding
+- [Shehroze Malik](https://github.com/shehrozeee)
 - [Praveen Raghuvanshi](https://github.com/praveenraghuvanshi)
 
 # What we have done:
